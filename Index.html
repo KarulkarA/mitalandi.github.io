@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT ACSC College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+
+       <a href="Index.html"><img src="images/collegefullname.png" alt="Image"></a>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+       </div>  
+       <i class="fa fa-bars" onclick="showMenu()"></i>   
+        </nav>
+        <div class="text-box">
+            <h1>MIT Pune's Arts,Commerce and Science College</h1><br>
+           <h3>Best Ranked Institute. Accredited by NAAC with "A" Grade.<br> </h3>
+            <br><br><a href="https://mitacsc.ac.in/" class="hero-btn">Visit us to Know More</a>
+
+        </div>
+
+
+
+    </section>
+
+    <!----------Course--------->
+
+    <section class="Course">
+        <h1>Courses We Offer</h1>
+
+        <div class="row">
+            <div class="course-col">
+                <h2>Computer Application</h2>
+                <h3>1)BCA(SCIENCE)<br>
+                   2)BBA(CA)<br>
+                   3)MCA<br>
+                   4)MSC(CA)<br>
+                </h3>
+            </div>
+            <div class="course-col">
+                <h2>Arts & Commerece</h2>
+                <h3>1)B.COM<br>
+                   2)M,COM<br>
+                   3)B.A<br>
+                   4)M.A<br>
+                </h3>
+            </div>
+            <div class="course-col">
+                <h2>Arts & Commerece</h2>
+                <h3>1)BSC CS<br>
+                   2)BSC IT<br>
+                   3)BCS ANIMATION<br>
+                   4)MSC CS<br>
+                </h3>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!------------Facilities---------->
+
+    <section class="Facilities">
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpg">
+                <h3>World Class Library</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Lab.jpg">
+                <h3>Big Computer Labs</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/canteen.jpg">
+                <h3>Tasty and Healty Food</h3>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--------Call to Action--------->
+
+    <section class="cta">
+        <h1>Enroll For Various Online Courses<br> Anywhere From the World</h1>
+        <a href="https://mitacsc.ac.in/contact.php?cid=5" class="hero-btn">CONTACT US</a>
+
+    </section>
+
+     <!----------Footer--------->
+
+     <section class="footer">
+
+        <h2>About Us</h2>
+        <h3 >The founder of MIT group of institutions, Prof. (Dr.) Vishwanath Karad with his vision to develop an excellent ambiance for academics and research conjugated with a vibrant environment to meet the challenges of the fiercely competitive world took initiative to impart quality education with easy access to the young generation and started MIT Arts, Commerce and Science College, Alandi Road, Pune, in 2007 under the aegis of Maharashtra Academy of Engineering and Educational Research (MAEER) Pune, affiliated to Savitribai Phule Pune University and recognized by the Government of Maharashtra.</h3>
+
+
+     </section>
+
+
+<!-----------Java Script For Toogle Menu------------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
